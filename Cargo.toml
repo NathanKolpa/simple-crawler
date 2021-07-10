@@ -1,0 +1,15 @@
+[package]
+name = "simple-crawler"
+version = "0.1.0"
+authors = ["Nathan Kolpa <nathan@kolpa.me>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+select = "0.5.0"
+clap = "2.33.3"
+futures = "0.3.15"
+reqwest = "0.11.4"
+tokio = { version = "1.8.0", features = ["full"] }
+async-recursion = "0.3.2"
